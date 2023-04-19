@@ -12,7 +12,6 @@ class RegisterViewController: UIViewController {
 
     @IBOutlet weak var usernameTxt: UITextField!
     
-    
     @IBOutlet weak var passwordTxt: UITextField!
     
     @IBOutlet weak var confirmPassTxt: UITextField!
@@ -45,6 +44,12 @@ class RegisterViewController: UIViewController {
         
         do {
             try context.save()
+            
+            // Auto redirect to Login Page
+            
+            if let nextView = storyboard?.instantiateViewController(withIdentifier: "LoginViewController") {
+                navigationController?.pushViewController(nextView, animated: true)
+            }
         }
         catch {
             print("Insert NewUser Failed")

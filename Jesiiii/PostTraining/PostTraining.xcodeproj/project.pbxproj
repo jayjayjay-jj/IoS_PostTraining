@@ -16,6 +16,8 @@
 		057748A529EF8EAD00FD1E47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 057748A329EF8EAD00FD1E47 /* LaunchScreen.storyboard */; };
 		057748AE29EFA03C00FD1E47 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057748AD29EFA03C00FD1E47 /* LoginViewController.swift */; };
 		057748B029EFA0C900FD1E47 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057748AF29EFA0C900FD1E47 /* RegisterViewController.swift */; };
+		057748B229EFD09E00FD1E47 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057748B129EFD09E00FD1E47 /* HomeViewController.swift */; };
+		057748B629EFD48100FD1E47 /* AssistantTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057748B529EFD48100FD1E47 /* AssistantTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		057748A629EF8EAD00FD1E47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		057748AD29EFA03C00FD1E47 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		057748AF29EFA0C900FD1E47 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		057748B129EFD09E00FD1E47 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		057748B529EFD48100FD1E47 /* AssistantTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistantTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,8 @@
 			children = (
 				057748AD29EFA03C00FD1E47 /* LoginViewController.swift */,
 				057748AF29EFA0C900FD1E47 /* RegisterViewController.swift */,
+				057748B129EFD09E00FD1E47 /* HomeViewController.swift */,
+				057748B529EFD48100FD1E47 /* AssistantTableViewCell.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -159,7 +165,9 @@
 				0577489629EF8EAC00FD1E47 /* AppDelegate.swift in Sources */,
 				0577489829EF8EAC00FD1E47 /* SceneDelegate.swift in Sources */,
 				057748B029EFA0C900FD1E47 /* RegisterViewController.swift in Sources */,
+				057748B629EFD48100FD1E47 /* AssistantTableViewCell.swift in Sources */,
 				057748AE29EFA03C00FD1E47 /* LoginViewController.swift in Sources */,
+				057748B229EFD09E00FD1E47 /* HomeViewController.swift in Sources */,
 				057748A029EF8EAC00FD1E47 /* PostTraining.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
